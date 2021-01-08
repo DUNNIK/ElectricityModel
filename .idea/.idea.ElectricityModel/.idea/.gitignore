@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.ElectricityModel.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\NIKITOS\RiderProjects\ElectricityModel\.idea\.idea.ElectricityModel\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

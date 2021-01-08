@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "TinyCsvParser/2.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/TinyCsvParser.dll": {}
+        },
+        "runtime": {
+          "lib/net45/TinyCsvParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TinyCsvParser/2.6.0": {
+      "sha512": "QqfrCRuRT6+IP2UCxSuxvPrZlHgXUwQiSYJhTNwF589JjLlZZuXBUwggKCOhcImnYkpL0CMlBhqYkj85+Gptgg==",
+      "type": "package",
+      "path": "tinycsvparser/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/TinyCsvParser.dll",
+        "lib/netstandard1.3/TinyCsvParser.dll",
+        "lib/netstandard2.0/TinyCsvParser.dll",
+        "lib/netstandard2.1/TinyCsvParser.dll",
+        "tinycsvparser.2.6.0.nupkg.sha512",
+        "tinycsvparser.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "TinyCsvParser >= 2.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\NIKITOS\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\NIKITOS\\RiderProjects\\ElectricityModel\\Data\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\Users\\NIKITOS\\RiderProjects\\ElectricityModel\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\NIKITOS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NIKITOS\\RiderProjects\\ElectricityModel\\Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\NIKITOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "TinyCsvParser": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

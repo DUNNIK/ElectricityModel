@@ -1,0 +1,16 @@
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\ElectricityModel.exe.config
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\ElectricityModel.exe
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\ElectricityModel.pdb
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.csprojAssemblyReference.cache
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.Properties.Resources.resources
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.csproj.GenerateResource.cache
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.csproj.CoreCompileInputs.cache
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.exe
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.pdb
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.Form1.resources
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\Bll.dll
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\Data.dll
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\TinyCsvParser.dll
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\Bll.pdb
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\bin\Debug\Data.pdb
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\ElectricityModel\obj\Debug\ElectricityModel.csproj.CopyComplete

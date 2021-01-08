@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityModel", "ElectricityModel\ElectricityModel.csproj", "{37188BEC-8E0C-40FB-A1FE-69CB213D09CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{1A15C50D-DA70-403E-8B00-747904D65C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll", "Bll\Bll.csproj", "{CC637AE3-0FF3-474B-AD91-AD70289D79E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37188BEC-8E0C-40FB-A1FE-69CB213D09CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37188BEC-8E0C-40FB-A1FE-69CB213D09CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37188BEC-8E0C-40FB-A1FE-69CB213D09CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37188BEC-8E0C-40FB-A1FE-69CB213D09CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A15C50D-DA70-403E-8B00-747904D65C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A15C50D-DA70-403E-8B00-747904D65C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A15C50D-DA70-403E-8B00-747904D65C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A15C50D-DA70-403E-8B00-747904D65C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC637AE3-0FF3-474B-AD91-AD70289D79E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC637AE3-0FF3-474B-AD91-AD70289D79E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC637AE3-0FF3-474B-AD91-AD70289D79E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC637AE3-0FF3-474B-AD91-AD70289D79E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

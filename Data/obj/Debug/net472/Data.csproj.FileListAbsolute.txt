@@ -1,0 +1,10 @@
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\bin\Debug\net472\Data.dll
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\bin\Debug\net472\Data.pdb
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\bin\Debug\net472\TinyCsvParser.dll
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\obj\Debug\net472\Data.csprojAssemblyReference.cache
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\obj\Debug\net472\Data.AssemblyInfoInputs.cache
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\obj\Debug\net472\Data.AssemblyInfo.cs
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\obj\Debug\net472\Data.csproj.CoreCompileInputs.cache
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\obj\Debug\net472\Data.csproj.CopyComplete
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\obj\Debug\net472\Data.dll
+C:\Users\NIKITOS\RiderProjects\ElectricityModel\Data\obj\Debug\net472\Data.pdb

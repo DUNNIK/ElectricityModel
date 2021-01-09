@@ -44,9 +44,11 @@
     <ItemGroup>
         <Compile Include="Csv\CsvPersonMapping.cs" />
         <Compile Include="Csv\CsvReader.cs" />
-        <Compile Include="DataController.cs" />
-        <Compile Include="DataHandler.cs" />
+        <Compile Include="DataMethods\DataController.cs" />
+        <Compile Include="DataMethods\DataHandler.cs" />
         <Compile Include="Exceptions\DataAccessException.cs" />
+        <Compile Include="ExperimentMethods\PracticalMethods.cs" />
+        <Compile Include="ExperimentMethods\TeoreticalMethods.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

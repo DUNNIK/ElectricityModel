@@ -4,8 +4,10 @@ using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
-using BLL;
 using Bll.Csv;
+using Bll.DataMethods;
+using Bll.ExperimentMethods;
+using Data;
 using Point = Data.Point;
 
 namespace ElectricityModel
@@ -171,6 +173,7 @@ namespace ElectricityModel
         {
             _currentGraph = GraphType.UrForAll;
         }
+        
         private void chart_GetToolTipText(object sender, ToolTipEventArgs e)
         {
             if (!String.IsNullOrWhiteSpace(e.Text))
@@ -206,6 +209,74 @@ namespace ElectricityModel
                     e.Text = $"{x:F2} {y:F2}";
                     break;
             }
+        }
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= '0' && e.KeyChar <= '9')
+            {
+                return;
+            }
+            if (e.KeyChar == '.')
+            {
+                e.KeyChar = ',';
+            }
+
+            if (e.KeyChar == ',')
+            {
+                if (textBox1.Text.IndexOf(',') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+
+            if (Char.IsControl( (e.KeyChar)))
+            {
+                if (e.KeyChar == (char)Keys.Enter)
+                {
+                    button1.Focus();
+                }
+                return;
+            }
+            e.Handled = true;
+        }
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= '0' && e.KeyChar <= '9')
+            {
+                return;
+            }
+            if (e.KeyChar == '.')
+            {
+                e.KeyChar = ',';
+            }
+
+            if (e.KeyChar == ',')
+            {
+                if (textBox2.Text.IndexOf(',') != -1)
+                {
+                    e.Handled = true;
+                }
+                return;
+            }
+
+            if (Char.IsControl( (e.KeyChar)))
+            {
+                if (e.KeyChar == (char)Keys.Enter)
+                {
+                    button1.Focus();
+                }
+                return;
+            }
+            e.Handled = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            PracticalMethods.AllPracticalCommands();
+            TeoreticalMethods.AllTeoreticalCommands(double.Parse(textBox2.Text), double.Parse(textBox1.Text));
+            richTextBox2.Text = PracticalData.ToString();
+            richTextBox1.Text = TeoreticalData.ToString();
         }
     }
 }

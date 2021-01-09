@@ -3,7 +3,7 @@ using BLL.Exceptions;
 using Data;
 using TinyCsvParser.Mapping;
 
-namespace BLL
+namespace Bll.DataMethods
 {
     public static class DataController
     {
